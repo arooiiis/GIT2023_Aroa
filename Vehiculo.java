@@ -1,4 +1,3 @@
-
 public class Vehiculo {
 
 	private String marca;
@@ -11,5 +10,11 @@ public class Vehiculo {
 		this.modelo = modelo;
 		this.matricula = matricula;
 	}
+	private String mostrarMarca() {
+		return this.marca;
+	}
+	private String mostrarModelo(){
+		return this.modelo;
+		}
 
 }
