@@ -14,5 +14,8 @@ public class Vehiculo {
 	private String mostrarMarca() {
 		return this.marca;
 	}
+	private String mostrarModelo(){
+		return this.modelo;
+		}
 
 }
