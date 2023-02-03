@@ -14,5 +14,6 @@ public class Vehiculo {
 	
 	private String mostrarMarca() {
 		return this.marca;
+		
 	}
 }
